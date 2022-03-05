@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-md navbar-dark " id="navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>Menú
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto nav">
+            <li class="nav-item">
+                <a class="nav-link  active"><i class="fas fa-home" style="cursor: pointer;"
+                        (click)="refrescar()"></i></a>
+            </li>
+            <!-- pasos para agrgar los componenetes a la navegacion 
+                1- copiar y pegar la carpeta de su componente dentro de la carpeta componentes de este proyecto
+                2-ir a app.module.ts y importar el componente y poner el nombre de el componente dentro de declarations
+                3-ir a app-routing.module.ts ,importar el componente y ponerlo en las routes (asi como en el componenete 'ejm')
+                4-replicar las lineas de codigo 18,19 y 20 , cambiando el nombre de la opcion y poniendo la ruta de su componente (como la pusieron en app-routing) -->
+            <li class="nav-item">
+                <a class="nav-link active" [routerLink]="['/ejm']">ejm</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
