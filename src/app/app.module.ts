@@ -13,6 +13,7 @@ import { TableModule } from 'primeng/table';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
+import { PrestamoComponent } from './componentes/prestamo/prestamo.component';
 
 
 
@@ -21,7 +22,8 @@ import { InputTextModule } from 'primeng/inputtext';
     AppComponent,
     EjmComponent,
     NavigationComponent,
-    LoginComponent
+    LoginComponent,
+    PrestamoComponent
   ],
   imports: [
     BrowserModule,
