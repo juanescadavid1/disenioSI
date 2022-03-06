@@ -15,6 +15,14 @@ import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { PrestamoComponent } from './componentes/prestamo/prestamo.component';
 
+//Devolucv
+import { ListaLibrosComponent } from './componentes/devuolucion/lista-libros/lista-libros.component';
+import { PantallaDevolucionComponent } from './componentes/devuolucion/pantalla-devolucion/pantalla-devolucion.component';
+import { BtnRealizarDevolucionComponent } from './componentes/devuolucion/btn-realizar-devolucion/btn-realizar-devolucion.component';
+import { HeaderPaginaDevolucionesComponent } from './componentes/devuolucion/header-pagina-devoluciones/header-pagina-devoluciones.component';
+import { ModalCancelarComponent } from './componentes/devuolucion/modal-cancelar/modal-cancelar.component';
+import { BuscadorUsuarioComponent } from './componentes/devuolucion/buscador-usuario/buscador-usuario.component';
+
 
 
 @NgModule({
@@ -23,7 +31,13 @@ import { PrestamoComponent } from './componentes/prestamo/prestamo.component';
     EjmComponent,
     NavigationComponent,
     LoginComponent,
-    PrestamoComponent
+    PrestamoComponent,
+    ListaLibrosComponent,
+    PantallaDevolucionComponent,
+    BtnRealizarDevolucionComponent,
+    HeaderPaginaDevolucionesComponent,
+    ModalCancelarComponent,
+    BuscadorUsuarioComponent
   ],
   imports: [
     BrowserModule,
