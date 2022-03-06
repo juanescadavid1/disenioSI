@@ -4,7 +4,7 @@ import { EjmComponent } from './componentes/ejm/ejm.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { PrestamoComponent } from './componentes/prestamo/prestamo.component';
 import { RegistroLibrosComponent } from './componentes/registro-libros/registro-libros.component';
-import { PantallaDevolucionComponent }  from './componentes/devuolucion/pantalla-devolucion/pantalla-devolucion.component'
+import { PantallaDevolucionComponent }  from './componentes/devolucion/pantalla-devolucion/pantalla-devolucion.component'
 
 
 const routes: Routes = [

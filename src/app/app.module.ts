@@ -17,12 +17,14 @@ import { PrestamoComponent } from './componentes/prestamo/prestamo.component';
 import { RegistroLibrosComponent } from './componentes/registro-libros/registro-libros.component';
 
 //Devolucv
-import { ListaLibrosComponent } from './componentes/devuolucion/lista-libros/lista-libros.component';
-import { PantallaDevolucionComponent } from './componentes/devuolucion/pantalla-devolucion/pantalla-devolucion.component';
-import { BtnRealizarDevolucionComponent } from './componentes/devuolucion/btn-realizar-devolucion/btn-realizar-devolucion.component';
-import { HeaderPaginaDevolucionesComponent } from './componentes/devuolucion/header-pagina-devoluciones/header-pagina-devoluciones.component';
-import { ModalCancelarComponent } from './componentes/devuolucion/modal-cancelar/modal-cancelar.component';
-import { BuscadorUsuarioComponent } from './componentes/devuolucion/buscador-usuario/buscador-usuario.component';
+import { ListaLibrosComponent } from './componentes/devolucion/lista-libros/lista-libros.component';
+import { PantallaDevolucionComponent } from './componentes/devolucion/pantalla-devolucion/pantalla-devolucion.component';
+import { BtnRealizarDevolucionComponent } from './componentes/devolucion/btn-realizar-devolucion/btn-realizar-devolucion.component';
+import { HeaderPaginaDevolucionesComponent } from './componentes/devolucion/header-pagina-devoluciones/header-pagina-devoluciones.component';
+import { ModalCancelarComponent } from './componentes/devolucion/modal-cancelar/modal-cancelar.component';
+import { BuscadorUsuarioComponent } from './componentes/devolucion/buscador-usuario/buscador-usuario.component';
+import { DatosUsuarioComponent } from './componentes/devolucion/datos-usuario/datos-usuario.component';
+import { ModalConfrimarDevolucionComponent } from './componentes/devolucion/modal-confrimar-devolucion/modal-confrimar-devolucion.component';
 
 
 
@@ -33,14 +35,16 @@ import { BuscadorUsuarioComponent } from './componentes/devuolucion/buscador-usu
     NavigationComponent,
     LoginComponent,
     PrestamoComponent,
-    RegistroLibrosComponent
+    RegistroLibrosComponent,
     PrestamoComponent,
     ListaLibrosComponent,
     PantallaDevolucionComponent,
     BtnRealizarDevolucionComponent,
     HeaderPaginaDevolucionesComponent,
     ModalCancelarComponent,
-    BuscadorUsuarioComponent
+    BuscadorUsuarioComponent,
+    DatosUsuarioComponent,
+    ModalConfrimarDevolucionComponent,
   ],
   imports: [
     BrowserModule,
