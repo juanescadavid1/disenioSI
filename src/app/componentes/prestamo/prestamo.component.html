@@ -1,0 +1,38 @@
+<div id="contenedor-libros">
+<div class="card" style="margin-bottom: 1rem;width: 250px;" *ngFor="let libro of Libro" >
+    <img [src]="libro.imagen" style="height: 150px;"
+        class="card-img-top" alt="imagen no disponible">
+    <div class="card-body" style="    display: flex;
+    flex-direction: column;
+    justify-content: space-between;">
+        <h5 class="card-title">{{libro.nombre}}</h5>
+        <p class="card-text">{{libro.autor}}</p>
+        <p class="card-text">{{libro.categoria}}</p>
+        <p class="card-text">{{libro.ISBN}}</p>
+        <div id="separacion_botones">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fas fa-share-square"></i> Prestar</button>
+            <button type="button" class="btn btn-secondary"><i class="far fa-calendar-plus"></i> Reservar</button>
+        </div>
+    </div>
+</div>
+</div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
