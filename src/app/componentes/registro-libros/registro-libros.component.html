@@ -1,0 +1,47 @@
+<section id="container">
+    <div class="form_register"> 
+        <h1 style="margin-left: 60px ;">Registro de Libros</h1>
+        <hr>
+            <div style= "display: flex; justify-content: center; ">
+                <div style="float: left;">
+                <label for="CT">Categoria</label>
+                <!-- <input type="text" name="CT" id="CT" placeholder="Categoria"> -->
+                <select class="form-select" aria-label="Categoria">
+                    <option selected>Categoria</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                  </svg></button>
+                <label for="ISBN">ISBN</label>
+               
+                <input type="text" name="ISBN" class="form-control" placeholder="ISBN">
+                <label for="TM">Temas</label>
+                <input type="text" name="TM" id="TM" placeholder="Temas">
+                <label for="CL">Colecciòn</label>
+                <input type="CL" name="CL" id="CL" placeholder="Coleccion">
+                <label for="usuario" >Autor del Libro</label>
+                <input type="text" name="AUT" id="AUT" placeholder="Autor del Libro">
+                </div>
+                <div style="float: right;">
+                <label for="tl">Tìtulo</label>
+                <input type="text" name="tl" id="tl" placeholder="Tìtulo">
+                <label for="tl">Idioma</label>
+                <input type="text" name="tl" id="tl" placeholder="Idioma">
+                <label for="NL">Clasificaciòn</label>
+                <input type="text" name="NL" id="NL" placeholder="Clasificaciòn">
+                <label for="NL">Publicaciòn</label>
+                <input type="date" name="NL" id="NL" placeholder="Publicaciòn">
+                <label for="TM">Descripciòn Fìsica</label>
+                <input type="text" name="TM" id="TM" placeholder="Descripciòn Fìsica">
+                </div>
+            </div>
+            <div class="botones" >
+                <input  style = "display: inline; " type="submit" value="Guardar Libro" class="btn_save" >
+                <input  style = "display: inline; " type="submit" value="Cancelar" class="btn_Cancel" >
+            </div>
+    </div>
+    
+</section>
