@@ -14,6 +14,7 @@ import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { PrestamoComponent } from './componentes/prestamo/prestamo.component';
+import { RegistroLibrosComponent } from './componentes/registro-libros/registro-libros.component';
 
 //Devolucv
 import { ListaLibrosComponent } from './componentes/devuolucion/lista-libros/lista-libros.component';
@@ -31,6 +32,8 @@ import { BuscadorUsuarioComponent } from './componentes/devuolucion/buscador-usu
     EjmComponent,
     NavigationComponent,
     LoginComponent,
+    PrestamoComponent,
+    RegistroLibrosComponent
     PrestamoComponent,
     ListaLibrosComponent,
     PantallaDevolucionComponent,
