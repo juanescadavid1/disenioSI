@@ -7,8 +7,8 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto nav">
             <li class="nav-item">
-                <a class="nav-link  active"><i class="fas fa-home" style="cursor: pointer;"
-                        (click)="refrescar()"></i></a>
+                <a class="nav-link active"><i class="fas fa-home" style="cursor: pointer;"
+                        (click)="refrescar()"></i> Inicio</a>
             </li>
             <!-- pasos para agrgar los componenetes a la navegacion 
                 1- copiar y pegar la carpeta de su componente dentro de la carpeta componentes de este proyecto
@@ -18,7 +18,15 @@
             <li class="nav-item">
                 <a class="nav-link active" [routerLink]="['/ejm']">ejm</a>
             </li>
-        </ul>
+            <li class="nav-item">
+                <a class="nav-link active" [routerLink]="['/prestamo']">prestamo</a>
+            </li>
 
+            
+        </ul>
+        <div class="buscador">
+            <input class="form-control me-2" type="search" placeholder="Titulo, Autor o ISBN" aria-label="">
+            <button id="btn_buscar" type="submit"><i class="fas fa-search"></i></button>
+        </div>
     </div>
 </nav>

@@ -1,8 +1,18 @@
-<div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+<div id="contenedor-libros">
+<div class="card" style="margin-bottom: 1rem;width: 250px;" *ngFor="let libro of Libro" >
+    <img [src]="libro.imagen" style="height: 150px;"
+        class="card-img-top" alt="imagen no disponible">
+    <div class="card-body" style="    display: flex;
+    flex-direction: column;
+    justify-content: space-between;">
+        <h5 class="card-title">{{libro.nombre}}</h5>
+        <p class="card-text">{{libro.autor}}</p>
+        <p class="card-text">{{libro.categoria}}</p>
+        <p class="card-text">{{libro.ISBN}}</p>
+        <div id="separacion_botones">
+            <button type="button" class="btn btn-primary"><i class="fas fa-share-square"></i> Prestar</button>
+            <button type="button" class="btn btn-secondary"><i class="far fa-calendar-plus"></i> Reservar</button>
+        </div>
     </div>
-  </div>
+</div>
+</div>

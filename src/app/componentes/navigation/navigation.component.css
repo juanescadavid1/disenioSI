@@ -1,7 +1,7 @@
 #navbar{
     background-color:#0aafaf ;
     height: 40px;
-    font-size: 13px;
+    font-size: 15px;
 }
 #nav-tab{
     background-color:rgb(242, 244, 244); 
@@ -12,4 +12,17 @@
     top: 100%;
     left: 0;
     margin-top: -5px;
+}
+
+.buscador{
+    display: flex!important;
+    position: absolute;
+    right: 10px;
+    height: 30px;
+}
+
+#btn_buscar{
+    background: transparent;
+    border: transparent;
+    color: white;
 }
