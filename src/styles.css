@@ -11,12 +11,16 @@
     order: 2;
     overflow: auto;
     margin: 0;
-  
+
   }
   .y-card-footer{
     order: 3;
     border-top: 1px solid rgb(204, 202, 202);
     padding: 10px;
     background-color: rgb(233, 232, 232);
-    
+
+  }
+
+  #btnConfirmarPopUp{
+    background-image: linear-gradient(to top, #72afd3  0%, #37ecba 100%);
   }
